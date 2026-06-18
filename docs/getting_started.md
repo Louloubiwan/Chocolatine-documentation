@@ -14,11 +14,11 @@ Sur Windows, exécutez `chocolatine.exe`
 
 Sur Linux, exécutez `./chocolatine`
 
-/!\ Si vous avez cette erreur /!\ :
+⚠️ Si vous avez cette erreur:
 
 * `error while loading shared libraries : libedit.so.0 cannot open shared objectfile`
 
-Then  : 
+Alors executez: 
 
 * `sudo apt install build-essential`
 
