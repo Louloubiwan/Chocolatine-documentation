@@ -580,6 +580,19 @@
 <p>Sur Windows, exécutez <code>chocolatine.exe</code></p>
 <h2 id="linux">Linux</h2>
 <p>Sur Linux, exécutez <code>./chocolatine</code></p>
+<p>/!\ Si vous avez cette erreur /!\ :</p>
+<ul>
+<li><code>error while loading shared libraries : libedit.so.0 cannot open shared objectfile</code></li>
+</ul>
+<p>Then  : </p>
+<ul>
+<li>
+<p><code>sudo apt install build-essential</code></p>
+</li>
+<li>
+<p><code>sudo ln -s /usr/lib/x86_64-linux-gnu/libedit.so.2 /usr/lib/x86_64-linux-gnu/libedit.so.0</code></p>
+</li>
+</ul>
 <p>Pour commencer à utiliser Chocolatine, n’oubliez pas de consulter la documentation : </p>
 <p><a class="md-button md-button--primary" href="../documentation/">Documentation</a></p>
 <hr />
